@@ -1,0 +1,296 @@
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# Head info
+head:
+    favicon: "/img/favicon.png"
+    high_res_favicon: "/img/favicon.png"
+    apple_touch_icon: "/img/favicon.png"
+    keywords:
+    site_verification:
+        google:
+        baidu:
+
+    # Enable generate structured-data as JSON+LD for SEO or not.
+    #    Set as 'false' if it cause some wrong when `hexo g`.
+    structured_data: true
+
+# Jump Links Settings
+url:
+    rss:
+    daily_pic: "#"
+    logo: "#"
+
+
+# ---------------------------------------------------------------
+# Style Settings
+# ---------------------------------------------------------------
+
+# Schemes
+scheme: Paradox
+#scheme: Isolation
+
+# UI & UX: slogan, color, effect
+uiux:
+    slogan: "肉搏真好玩,我还要充钱"
+    theme_color: "#0097A7"
+    theme_sub_color: "#00838F"
+    hyperlink_color: "#00838F"
+    button_color: "#757575"
+    android_chrome_color: "#0097A7"
+    nprogress_color: "#29d"
+    nprogress_buffer: "800"
+
+# JS Effect Switches
+js_effect:
+    fade: true
+    smoothscroll: false
+
+# Reading experience
+reading:
+    entry_excerpt: 80
+
+# Thumbnail Settings
+thumbnail:
+    purecolor:
+    random_amount: 19
+
+# Background Settings
+# bing available parameter:
+#    new | color= | type=
+#        color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
+#        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
+background:
+    purecolor: "#F5F5F5"
+    bgimg: "https://cdn.axis-studio.org/bg_3.JPG"
+    bing:
+        enable: false
+        parameter:
+
+# Images Settings
+img:
+    logo: "https://cdn.axis-studio.org/logo-1.png"
+    avatar: "https://cdn.axis-studio.org/avatar.jpg"
+    daily_pic: "https://cdn.axis-studio.org/daily_pic_1.png"
+    sidebar_header: "https://cdn.axis-studio.org/sidebar_header_1.png"
+    random_thumbnail: "/img/random/material-"
+    footer_image:
+        #upyun_logo:
+            #link: "https://www.upyun.com/"
+            #src: "/img/upyun_logo.svg"
+
+# Custom Fonts
+#    family: the font-family which will be used in the theme
+#    use: uri of fonts host.
+#        Available value: google | baomitu | ustc | custom | catnet
+#        - When you set as 'custom', you should fill in the value of 'custom_font_host', which should be a mirror of google fonts.
+#        - If you have setup your custom font-family, don't forget to add style tag with @font-face or link.tag with font css
+#          to /source/data/head.yml as custom code, to load custom font files.
+fonts:
+    family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
+    use: google
+    custom_font_host:
+
+# Card Elevation Level
+card_elevation: 2
+
+# Copyright
+# Specify the date when the site was setup.
+#    For example, if you set it as 2015, then footer will show '© 2015 - 2017'
+copyright_since: 2016
+
+# Footer Text
+# You can specify the text you want to show in footer, HTML tag is supported.
+#   For example, you can setup ICP license number as:
+#       '<a href="http://www.miitbeian.gov.cn" rel="nofollow">某ICP备xxxxxxxx号-x</a>'
+footer_text: 'Made with <svg version="1.1" id="图形" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28" height="28" viewBox="10 5 35 35" enable-background="new 0 0 58.636 58.678" xml:space="preserve" data-tags="pic" style="margin-left:2px;fill: #ff4400;margin-top:2px;"><path id="J_icon_svg" d="M510.0032-140.96c-5.1456 0-9.9584 1.1264-14.1824 3.3792-61.8752 30.7456-174.0544 114.6624-274.304 226.3808-52.608 58.5728-94.4128 116.5056-124.2624 172.16-34.8928 65.024-52.5568 125.5168-52.5568 179.9424 0 112.1024 52.2496 176.7168 96.128 211.2512 48.7168 38.3488 115.3792 61.2352 178.304 61.2352 39.04 0 79.4624-11.9808 120.0896-35.6608 29.7984-17.3824 54.1184-37.8112 70.784-53.5808 16.6144 15.7696 40.9856 36.1984 70.7584 53.5808 40.6528 23.68 81.0496 35.6608 120.1408 35.6608 62.8992 0 129.5616-22.8864 178.2528-61.2352 43.904-34.5344 96.2048-99.1488 96.2048-211.2512 0-54.4256-17.6896-114.9184-52.608-179.9424-29.8496-55.6544-71.6544-113.5616-124.2624-172.16-100.1984-111.6928-212.3776-195.6608-274.1504-226.432C519.8336-139.8592 515.0208-140.96 510.0032-140.96L510.0032-140.96zM319.1296 650.3616" transform="translate(16, 24) scale(1, -1) scale(0.025,0.025)" style="
+"></path></svg> <br> <a href="http://www.miitbeian.gov.cn" rel="nofollow" style="color: #9e9e9e; font-size: 12px;text-decoration:none;">豫ICP备17043582号-1</a>'
+# Qrcode for redirect at other device
+#    use: choose which method to generate the qrcode for each posts.
+#        Available value: plugin | online
+#            - When use "plugin", you need to install the hexo-helper-qrcode.
+#            - When use "online", the qrcode will be generated by 'pan.baidu.com' in China.
+qrcode:
+    enable: false
+    use: plugin
+
+# Code highlight
+# You can only enable one of them to avoid issues.
+# Also you need to disable highlight option in hexo's _config.yml.
+#
+#    Prettify
+#        theme: # Available value in /source/css/prettify/[theme].min.css
+prettify:
+    enable: true
+    theme: "github-v2"
+
+#    Hanabi (https://github.com/egoist/hanabi)
+#        line_number: [true/false] # Show line number for code block
+#        includeDefaultColors: [true/false] # Use default hanabi colors
+#        customColors: This value accept a string or am array to setting for hanabi colors.
+#                    - If `includeDefaultColors` is true, this will append colors to the color pool
+#                    - If `includeDefaultColors` is false, this will instead default color pool
+hanabi:
+    enable: false
+    line_number: false
+    includeDefaultColors: true
+    customColors: 
+
+# Post License
+# You can specify the text you want to show in the end of your posts and pages, HTML tag is supported.
+#   For example, you can setup a CC license as:
+#       'This blog is under a <a href="/creativecommons.html" target="_blank">CC BY-NC-SA 3.0 Unported License</a>'
+# You can also use Front-Matter `license` to override this setting.
+license: 
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+# TOC Button
+
+toc:
+#   use: choose whether the line_number of toc will show or not.
+#       Available value of "linenumber": true | false
+    linenumber: true
+
+# SNS Menu
+sns:
+    email: "charexcalibur@gmail.com"
+    facebook:
+    twitter: "https://twitter.com/charexcalibur"
+    googleplus:
+    weibo: 
+    instagram: "https://www.instagram.com/charexcalibur/"
+    tumblr:
+    github: "https://github.com/charexcalibur"
+    linkedin:
+    zhihu:
+    bilibili:
+    telegram:
+    v2ex:
+
+# SNS Share Switch
+sns_share:
+    twitter: true
+    facebook: true
+    googleplus: true
+    weibo: true
+    linkedin: false
+    qq: false
+    telegram: false
+
+# Sidebar Customize
+sidebar:
+    dropdown:
+        Email Me:
+            link: "charexcalibur@gmail.com"
+            icon: email
+    homepage:
+        use: true
+        icon: home
+        divider: false
+    archives:
+        use: true
+        icon: inbox
+        divider: false
+    categories:
+        use: true
+        icon: chrome_reader_mode
+        divider: false
+    pages:
+        #About:
+            #link: "/about"
+            #icon: person
+            #divider: false
+    article_num:
+        use: false
+        divider: false
+    footer:
+        divider: true
+        theme: true
+        support: false
+        feedback: false
+        material: false
+
+
+# ---------------------------------------------------------------
+# Integrated Services
+# ---------------------------------------------------------------
+
+# Comment Systems
+# Available value of "use":
+#     disqus | disqus_click | changyan | livere | gitment | valine
+# If you want to use gitment,you should get the client_id and client_secret form https://github.com/settings/applications/new
+# If you want to use valine,you should get the app_id and app_key form https://leancloud.cn ,more setting please see https://github.com/xCss/Valine
+comment:
+    use: disqus
+    shortname: charexcalibur-1
+    changyan_appid:
+    changyan_conf:
+    changyan_thread_key_type: path
+    livere_data_uid:
+    gitment_repo:   # git repo of the hexo
+    gitment_owner:  # git repo's owner
+    gitment_client_id:  # github app client id 
+    gitment_client_secret :  # github app client secret 
+    valine_leancloud_appId: # leancloud application app id
+    valine_leancloud_appKey: # leancloud application app key
+
+# Search Systems
+# Available value:
+#     swiftype | google | local
+search:
+    use: google
+    swiftype_key:
+
+# Analytics Systems
+# Available value:
+#     baidu | google | cnzz
+analytics:
+    google_site_id: UA-106756528-1
+    baidu_site_id: f29f0242f6e2394c5b73364d5210b5f3
+    cnzz_site_id:
+
+# Leancloud Views
+leancloud:
+    enable: false
+    app_id: #你的 app_id
+    app_key: #你的 app_key
+    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
+
+# Busuanzi 不蒜子 Views
+busuanzi:
+    enable: false
+    all_site_uv: false
+    post_pv: false
+    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+
+# Files Vendors
+# Set a CDN for the files src you want to customize. The url should with protocol.
+# Default(empty) will load the files from the origin server.
+vendors:
+# MaterialCDN
+#   You can load theme unique files from your private cdn or oss.
+#   The new src will have the base domain you configured below.
+#   For example
+#       materialcdn: https://cdn.jsdelivr.net/npm/hexo-material@1.4.0/source
+    materialcdn:
+
+# Third party library
+#   You can load these files from public cdn.
+#   For example
+#       jquery: https://cdn.bootcss.com/jquery/2.2.1/jquery.js
+    # jQuery 2.2.0
+    jquery:
+    # nprogress 0.2.0
+    nprogress:
+    # FontAwesome 4.5.0
+    fontawesome:
+    # MathJax 2.7.0-2.7.1
+    mathjax:
+    # Prettify r298 (only prettify.js)
+    prettify:
+    # Material Icons 3.0.1
+    material_icons:
