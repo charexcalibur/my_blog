@@ -7,6 +7,9 @@ categories:
   - 技术
 thumbnail: https://cdn.axis-studio.org/D160DDCA-37D3-488B-978A-BA829DF657F2.jpg
 ---
+
+Allow for transparent / vibrant window theme
+
 ## 原文 issue 及 解决方案
 
 [issue and comment on github](https://github.com/Microsoft/vscode/issues/32257#issuecomment-489474744)
@@ -21,10 +24,8 @@ thumbnail: https://cdn.axis-studio.org/D160DDCA-37D3-488B-978A-BA829DF657F2.jpg
 1. 在 vscode 中 install extension `Custom CSS and JS Loader`
 2. 创建 css 以及 js 文件, `vi /to/your/path/custom.css vi /to/your/path/custom.js`
 
-<details>
-<summary>css 文件</summary>
-
 ```css
+/* css 文件 */
 html {
     background: transparent !important;
 }
@@ -111,23 +112,19 @@ body {
 .editor-group-container>.tabs .tab {
     border: none !important;
 }
-
 ```
-</details>
 
-<details>
-<summary>js 文件</summary>
 
 ```js
+// js 文件
 nodeRequire('electron').remote.getCurrentWindow().setVibrancy('dark');
 ```
+
 setVibrancy() 有几个 type 可以选择 `appearance-based`, `light`, `dark`, `titlebar`, `selection`, `menu`, `popover`, `sidebar`, `medium-light` 或者 `ultra-dark`
 
 更多详情信息，请查阅 [win.setVibrancy(type)](https://electronjs.org/docs/api/browser-window#winsetvibrancytype-macos)
 
-</details>
-
-3. 在 vscode 的 setting.json 中写入配置
+1. 在 vscode 的 setting.json 中写入配置
 
 ```json
 "vscode_custom_css.imports": [
