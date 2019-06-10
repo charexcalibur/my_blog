@@ -1,7 +1,10 @@
 ---
 title: vue插件注册原理
 date: 2019-06-06 18:08:04
-tags:
+tags: 
+ - Vue.js
+ - 源码分析
+thumbnail: https://cdn.axis-studio.org/DSC00060.JPG
 ---
 
 
@@ -46,4 +49,7 @@ export function initUse (Vue: GlobalAPI) {
 
 最后将 `plugin` 储存到 `installedPlugins`。
 
+## 本文参考
 
+- 封面图：迷之女主角
+- [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
