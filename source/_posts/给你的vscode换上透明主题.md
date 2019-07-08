@@ -16,7 +16,7 @@ Allow for transparent / vibrant window theme
 
 ## 环境
 
-- vscode 1.33.1
+- vscode 1.36.0 (1.36.0)
 - macOS Mojave 10.14.3
 
 ## 步骤
@@ -117,7 +117,13 @@ body {
 
 ```js
 // js 文件
-nodeRequire('electron').remote.getCurrentWindow().setVibrancy('dark');
+w = nodeRequire('electron')
+  .remote
+  .getCurrentWindow();
+
+w.setBackgroundColor('#00000000');
+w.setVibrancy('ultra-dark');
+w.setFullScreen(true);
 ```
 
 setVibrancy() 有几个 type 可以选择 `appearance-based`, `light`, `dark`, `titlebar`, `selection`, `menu`, `popover`, `sidebar`, `medium-light` 或者 `ultra-dark`
