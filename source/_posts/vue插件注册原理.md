@@ -4,7 +4,7 @@ date: 2019-06-06 18:08:04
 tags: 
  - Vue.js
  - 源码分析
-thumbnail: https://cdn.axis-studio.org/DSC00060.JPG
+thumbnail: https://cdn.axis-studio.org/DSC00060.JPG?imageMogr2/quality/30
 ---
 
 
