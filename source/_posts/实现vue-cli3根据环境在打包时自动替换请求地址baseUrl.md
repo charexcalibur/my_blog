@@ -45,7 +45,7 @@ module.exports = () => {
       baseUrl = 'http://127.0.0.1:8000/'
       break
     case 'production':
-      baseUrl = 'http://47.98.243.73:8080/'
+      baseUrl = 'http://yourip:8080/'
       break
   }
 
