@@ -56,7 +56,7 @@ thumbnail: https://cdn.axis-studio.org/C22AEF424E548F63526E76A11431A500.JPG?imag
 
 ![](https://cdn.axis-studio.org/bw_%2017.jpg)
 
-![](https://cdn.axis-studio.org/bw_%2018.jpg)
+![](https://cdn.axis-studio.org/bw_%20188.jpg)
 
 ![](https://cdn.axis-studio.org/bw_%2019.jpg)
 
