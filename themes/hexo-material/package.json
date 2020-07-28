@@ -51,7 +51,9 @@
   "bugs": {
     "url": "https://github.com/viosey/hexo-theme-material/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "hexo-lazyload-image": "^1.0.9"
+  },
   "description": "Material Design Theme for Hexo",
   "devDependencies": {
     "ejs-lint": "^0.2.0",

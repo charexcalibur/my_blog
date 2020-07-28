@@ -56,9 +56,9 @@ thumbnail: https://cdn.axis-studio.org/cp26cp26day144.jpg
 
 ![](https://cdn.axis-studio.org/cp26cp26day12.jpg)
 
-![](https://cdn.axis-studio.org/cp26cp26day13.jpg)
+<!-- ![](https://cdn.axis-studio.org/cp26cp26day13.jpg) -->
 
-![](https://cdn.axis-studio.org/cp26cp26day14.jpg)
+<!-- ![](https://cdn.axis-studio.org/cp26cp26day14.jpg) -->
 
 ![](https://cdn.axis-studio.org/cp26cp26day15.jpg)
 

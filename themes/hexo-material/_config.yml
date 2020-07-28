@@ -22,7 +22,10 @@ url:
     daily_pic: "#"
     logo: "#"
 
-
+lazyload:
+  enable: true
+  onlypost: false
+  loadingImg: # eg. ./images/loading.png
 # ---------------------------------------------------------------
 # Style Settings
 # ---------------------------------------------------------------
@@ -258,14 +261,14 @@ leancloud:
     enable: false
     app_id: #你的 app_id
     app_key: #你的 app_key
-    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
+    av_core_mini: ""
 
 # Busuanzi 不蒜子 Views
 busuanzi:
     enable: false
     all_site_uv: false
     post_pv: false
-    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+    busuanzi_pure_mini_js: ""
 
 # Files Vendors
 # Set a CDN for the files src you want to customize. The url should with protocol.
