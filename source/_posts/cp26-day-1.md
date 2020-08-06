@@ -5,7 +5,7 @@ tags:
 - 摄影
 categories:
 - 摄影
-thumbnail: https://cdn.axis-studio.org/cp26cp26day144.jpg
+thumbnail: https://cdn.axis-studio.org/cp26/cp26day154.jpg
 ---
 
 
