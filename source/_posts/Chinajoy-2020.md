@@ -1,5 +1,5 @@
 ---
-title: Chinajoy 2020
+title: Chinajoy_2020
 date: 2020-08-04 20:14:39
 tags:
 - 摄影
