@@ -16,7 +16,7 @@ thumbnail: https://cdn.axis-studio.org/cp26/cp26day154.jpg
 ## 设备
 
 - Sony A7R2
-- Sony 24mm F1.8 GM
+- Sony 24mm F1.4 GM
 - Ulanzi VL120
 
 先说设备。感觉 A7R2 用了一年多了，逐渐上手。24 这个镜头很棒，比起自己的 50 定，要好上不少，毕竟一个能买我十个。广角挺好玩的，找好角度，就能把小姐姐的腿拉好长，不愧是私房之眼。Ulanzi 这块 Led 补光灯，在展子上还是有点拉垮。我看好多用神牛的，自己也买了一个 850，下周 CJ 的时候试试机顶闪光灯。
