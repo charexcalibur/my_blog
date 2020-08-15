@@ -7,6 +7,8 @@ tags:
   - coser
   - photoshop
   - lightroom
+categories:
+  - 摄影
 thumbnail: https://cdn.axis-studio.org/C22AEF424E548F63526E76A11431A500.JPG?imageMogr2/quality/50
 ---
 
