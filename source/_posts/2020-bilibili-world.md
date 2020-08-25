@@ -21,10 +21,6 @@ thumbnail: https://cdn.axis-studio.org/2020bw/bw30.jpg
 
 ![](https://cdn.axis-studio.org/2020bw/bw2.jpg)
 
-![](https://cdn.axis-studio.org/2020bw/bw3.jpg)
-
-![](https://cdn.axis-studio.org/2020bw/bw4.jpg)
-
 ![](https://cdn.axis-studio.org/2020bw/bw5.jpg)
 
 ![](https://cdn.axis-studio.org/2020bw/bw6.jpg)
