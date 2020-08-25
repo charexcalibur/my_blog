@@ -145,7 +145,7 @@ hanabi:
 #   For example, you can setup a CC license as:
 #       'This blog is under a <a href="/creativecommons.html" target="_blank">CC BY-NC-SA 3.0 Unported License</a>'
 # You can also use Front-Matter `license` to override this setting.
-license: 
+license: '作者：hayato <br/>文章版权：本站所有文章版权依赖于 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA 3.0 Unported License</a>'
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -162,10 +162,10 @@ toc:
 sns:
     email: "charexcalibur@gmail.com"
     facebook:
-    twitter: "https://twitter.com/charexcalibur"
+    twitter:
     googleplus:
-    weibo: 
-    instagram: "https://www.instagram.com/charexcalibur/"
+    weibo:
+    instagram: "https://www.instagram.com/_hayato_777/"
     tumblr:
     github: "https://github.com/charexcalibur"
     linkedin:
@@ -203,10 +203,10 @@ sidebar:
         icon: chrome_reader_mode
         divider: false
     pages:
-        #About:
-            #link: "/about"
-            #icon: person
-            #divider: false
+        About:
+            link: "/about"
+            icon: person
+            divider: false
     article_num:
         use: false
         divider: false
