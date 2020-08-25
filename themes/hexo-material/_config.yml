@@ -66,7 +66,7 @@ thumbnail:
 #        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
-    bgimg: "https://cdn.axis-studio.org/bg_3.JPG"
+    bgimg: "https://cdn.axis-studio.org/xiamen/DSC00848-2.jpg"
     bing:
         enable: false
         parameter:
