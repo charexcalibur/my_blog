@@ -1,5 +1,5 @@
 ---
-title: 在Django项目中运行python脚本调用Django内部Models
+title: 在 Django 项目中运行 python 脚本调用 Django 内部的 Models
 date: 2020-08-06 14:20:24
 tags:
   - Django

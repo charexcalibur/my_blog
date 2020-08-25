@@ -1,5 +1,5 @@
 ---
-title: cp26_day_1
+title: cp26 day 1
 date: 2020-07-27 23:25:07
 tags:
 - 摄影

@@ -1,5 +1,5 @@
 ---
-title: cp26_day_2
+title: cp26 day 2
 date: 2020-08-02 19:39:48
 tags:
 - 摄影
