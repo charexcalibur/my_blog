@@ -1,5 +1,5 @@
 ---
-title: 2021 cp27 shanghai
+title: 2021 CP27 shanghai
 date: 2021-01-03 14:34:58
 categories:
   - 摄影
